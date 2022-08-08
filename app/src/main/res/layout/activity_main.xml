@@ -2,9 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_vertical"
-    android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black">
 
     <EditText
         android:id="@+id/loginEmail"
@@ -12,28 +13,32 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:hint="@string/email"
+        android:background="#AAADBF"
         android:inputType="textEmailAddress"
-        android:textColorHint="#78909C"
+        android:textColorHint="#253040"
         android:textSize="25sp"
-        android:autofillHints="" />
+        android:autofillHints=""
+        android:layout_margin="10sp"/>
 
     <EditText
         android:id="@+id/loginSenha"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:autofillHints=""
+        android:background="#AAADBF"
         android:hint="@string/senha"
         android:inputType="textPassword"
-        android:textColorHint="#78909C"
+        android:textColorHint="#253040"
         android:textSize="25sp"
-        android:autofillHints="" />
+        android:layout_margin="10sp"/>
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#253040"
         android:text="@string/login"
         android:textSize="25sp" />
 
@@ -42,6 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
         android:text="@string/signUpCall"/>
 
 </LinearLayout>

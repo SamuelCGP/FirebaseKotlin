@@ -2,9 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_vertical"
-    android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black">
 
     <EditText
         android:id="@+id/regEmail"
@@ -13,7 +14,10 @@
         android:layout_gravity="center_horizontal"
         android:inputType="textEmailAddress"
         android:hint="@string/email"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:textColorHint="#253040"
+        android:background="#AAADBF"
+        android:layout_margin="10sp"/>
 
     <EditText
         android:id="@+id/regSenha"
@@ -22,14 +26,17 @@
         android:layout_gravity="center_horizontal"
         android:inputType="textPassword"
         android:hint="@string/senha"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:textColorHint="#253040"
+        android:background="#AAADBF"
+        android:layout_margin="10sp"/>
 
     <Button
         android:id="@+id/btnCadastrar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/teal_700"
+        android:backgroundTint="#253040"
         android:text="@string/cadastrar"
         android:textSize="25dp" />
 
