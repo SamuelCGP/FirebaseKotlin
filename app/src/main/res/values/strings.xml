@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App Autentica Firebase</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="signUpCall">Não tem uma conta? Faça cadastro!</string>
+    <string name="msgUsuarioLogado">Bem-vindo usuário!"</string>
+    <string name="btnDeslogar">Deslogar</string>
+</resources>
